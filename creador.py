@@ -1,0 +1,5 @@
+print("Iniciando herramienta de automatizacion...")
+archivo = open("reporte.txt", "w")
+archivo.write("Auditoria completada con exito en el entorno local.\n")
+archivo.close()
+print("El archivo 'reporte.txt' ha sido creado en tu Windows o Linux!")
